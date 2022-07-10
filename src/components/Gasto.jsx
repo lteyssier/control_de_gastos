@@ -9,8 +9,8 @@ import {
   } from 'react-swipeable-list';
   import 'react-swipeable-list/dist/styles.css'
 import IconoAhorro from "../img/icono_ahorro.svg"
-import IconoCasa from "../img/icono_casa.svg"
-import IconoComida from "../img/icono_comida.svg"
+import IconoCasa from "../img/icono_comida.svg"
+import IconoComida from "../img/icono_casa.svg"
 import IconoGastos from "../img/icono_gastos.svg"
 import IconoOcio from "../img/icono_ocio.svg"
 import IconoSalud from "../img/icono_salud.svg"
@@ -24,7 +24,7 @@ const diccionarioIconos ={
    gastos: IconoGastos,
    ocio: IconoOcio, 
    salud: IconoSalud,
-   suscripciones: IconoSuscripciones
+   vuelos: IconoSuscripciones
 }
 
 const Gasto = ({gasto, setGastoEditar, eliminarGasto}) => {
